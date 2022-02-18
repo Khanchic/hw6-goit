@@ -41,6 +41,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   top: 8px;
   right: 8px;
@@ -132,6 +135,9 @@
   display: block;
   margin-top: 4.5px;
   margin-right: 5px;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal_chekbox_text {
   font-weight: 400;
@@ -173,6 +179,9 @@
   margin-top: 30px;
   justify-content: center;
   position: absolute;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   right: 165px;
   left: 163px;
 }
