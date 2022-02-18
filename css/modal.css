@@ -119,7 +119,7 @@
   border: #2196f3;
 }
 .modal_chekbox:checked + .modal_chekbox_text::before {
-  background-image: url(/image/true.svg);
+  background-image: url(../image/true.svg);
   border: 0;
 }
 
