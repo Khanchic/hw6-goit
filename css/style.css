@@ -828,6 +828,9 @@ a:focus {
   margin-left: 93px;
   align-items: center;
 }
+.feetback_input:hover {
+  border: 1px solid #2196f3;
+}
 .feetback_input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
